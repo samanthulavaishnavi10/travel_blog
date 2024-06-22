@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>My Travels</h1>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="destinations">Destinations</a></li>
+                <li><a href="gallery">Gallery</a></li>
+                <li><a href="tips">Travel Tips</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to My Travel Blog</h1>
+        <p>Join me as I explore the world's most beautiful places.</p>
+    </section>
+    <section id="destinations">
+        <h2>Destinations</h2>
+        <div class="destination">
+            <h3>Paris</h3>
+            <img src="../images/img1.jpg" style="width: 300px; height: 250px; border-radius: 12px;">
+            <p>Discover the charm of the French capital.</p>      
+        </div>
+        <div class="destination">
+            <h3>New York</h3>
+            <img src="../images/img2.jpg" style="width: 300px; height: 250px; border-radius: 12px;">
+            <p>Explore the city that never sleeps.</p>
+        </div>
+        <div class="destination">
+            <h3>Tokyo</h3>
+            <img src="../images/img3.jpg" style="width: 300px; height: 250px; border-radius: 12px;">
+            <p>Experience the vibrant life of Tokyo.</p>
+        </div>
+    </section>
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-item"><img src="../images/landscape.png" style="width: 300px; height: 250px; border-radius: 12px;"></div>
+        <div class="gallery-item"><img src="../images/cityskyline.jpg" style="width: 300px; height: 250px; border-radius: 12px;"></div>
+        <div class="gallery-item"><img src="../images/mountain.jpg" style="width: 300px; height: 250px; border-radius: 12px;"></div>
+    </section>
+    <section id="tips">
+        <h2>Travel Tips</h2>
+        <ul>
+            <li>1.Pack light and smart.</li>
+            <li>2.Always carry a map.</li>
+            <li>3.Learn basic phrases in the local language.</li>
+            <li>4.Stay hydrated and eat well.</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you have any questions or just want to say anything, feel free to contact me!</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Travel Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
